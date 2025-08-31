@@ -20,7 +20,7 @@
 			}
 			
 			.dra_div_hover:hover {
-				color: blue;
+				/*color: blue;*/
 				transition-duration: 1s;
 				transform:scale(1.01);
 				/*transform:translateY(-5px);*/
@@ -34,41 +34,57 @@
 			.dra_div_center {
 				text-align: center;
 			}
+
+			a {
+				color: blue;
+			}
+
+			a:hover {
+				color: blue;
+				font-weight: bold;
+			}
+
+			.dra_div_w500px {
+				width: 500px;
+				background-color: antiquewhite;
+			}
 		
 		</style>
 	</head>
 	<body>
 		
-		<div class="dra_div_center">
+		<center>
+			<div class="dra_div_center dra_div_w500px">
 
-			<div class="dra_div_section_bottom dra_div_section_top dra_div_hover">
-				<div>
-					<h1 class="dra_div_section_bottom dra_div_hover">
-						Daniel Rodríguez Ariza
-					</h1>
+				<div class="dra_div_section_bottom dra_div_section_top dra_div_hover">
+					<div>
+						<h1 class="dra_div_section_bottom dra_div_hover">
+							Daniel Rodríguez Ariza
+						</h1>
+					</div>
+					<p>Just a programmer</p>
 				</div>
-				<p>Just a programmer</p>
-			</div>
-			
-			<div class="dra_div_section_bottom dra_div_section_top dra_div_hover">
-				<div>
-					<h1 class="dra_div_section_bottom dra_div_hover">
-						Project Repository
-					</h1>
+				
+				<div class="dra_div_section_bottom dra_div_section_top dra_div_hover">
+					<div>
+						<h1 class="dra_div_section_bottom dra_div_hover">
+							Project Repository
+						</h1>
+					</div>
+					<p>The repository for the project can be found <a href="https://github.com/DanielRodriguezAriza/danielrodriguezariza.github.io" target="_blank">here</a></p>
 				</div>
-				<p>The repository for the project can be found <a href="https://github.com/DanielRodriguezAriza/danielrodriguezariza.github.io">here</a></p>
-			</div>
 
-			<div class="dra_div_section_bottom dra_div_section_top dra_div_hover">
-				<div>
-					<h1 class="dra_div_section_bottom dra_div_hover">
-						Test
-					</h1>
+				<div class="dra_div_section_bottom dra_div_section_top dra_div_hover">
+					<div>
+						<h1 class="dra_div_section_bottom dra_div_hover">
+							Test
+						</h1>
+					</div>
+					<p>This is just a test</p>
 				</div>
-				<p>This is just a test</p>
-			</div>
 
-		</div>
+			</div>
+		</center>
 		
 	</body>
 </html>
