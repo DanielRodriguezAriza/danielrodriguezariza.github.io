@@ -4,9 +4,47 @@
 		<meta charset="utf-8"/>
 		<title>Daniel Rodríguez Ariza</title>
 		<link rel="icon" type="image/x-icon" href="./assets/images/icon/favicon.ico">
+		
+		<style>
+		
+			.dra_div_section_bottom {
+				border-bottom-width: 1px;
+				border-bottom-color: rgba(200, 200, 200, 0.5);
+				border-bottom-style: solid;
+			}
+			
+			.dra_div_section_top {
+				border-top-width: 1px;
+				border-top-color: rgba(200, 200, 200, 0.5);
+				border-top-style: solid;
+			}
+			
+			.dra_div_hover:hover {
+				color: blue;
+				transition-duration: 1s;
+				transform:scale(1.01);
+				/*transform:translateY(-5px);*/
+			}
+
+			.dra_div_hover {
+				transition-duration: 1s;
+				/*transform:scale(1);*/
+			}
+		
+		</style>
 	</head>
 	<body>
-		<h1>Test Page</h1>
-		<p>This is a test.</p>
+		
+		<div class="dra_div_section_bottom dra_div_section_top dra_div_hover">
+			<h1>Test Page</h1>
+			<p>This is a test.</p>
+		</div>
+		
+		<div class="dra_div_section_bottom dra_div_section_top dra_div_hover">
+			<h1>Test Page</h1>
+			<p>This is a test.</p>
+			<a>fsafsa</a>
+		</div>
+		
 	</body>
 </html>
