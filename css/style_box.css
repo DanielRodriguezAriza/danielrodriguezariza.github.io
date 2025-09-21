@@ -11,3 +11,16 @@
     background-color: var(--color-img-3);
     transform: translateY(-2px);
 }
+
+.box_code {
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: var(--color-img-1);
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color-img-0);
+    color: var(--color-txt-0);
+    line-height: 2px;
+    padding: 2px;
+}
