@@ -1,0 +1,11 @@
+.header_area_title {
+	display: inline-block;
+}
+
+.header_area_button {
+	position: absolute;
+	display: inline-block;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
