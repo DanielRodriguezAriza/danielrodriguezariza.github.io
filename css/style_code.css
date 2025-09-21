@@ -1,0 +1,32 @@
+/*
+    TODO : Implement light mode colors...
+*/
+
+.code_type {
+    color: rgba(206, 223, 153, 1.0);
+    font-weight: bold;
+}
+
+.code_identifier {
+    /*color: white;*/ /* TODO : Implement for light mode and dark mode, but it would be kind of redundant tbh... */
+}
+
+.code_symbol {
+    color: rgba(160, 160, 95, 1.0);
+}
+
+.code_include {
+    color: rgba(255, 150, 75, 1.0);
+}
+
+.code_number {
+    color: rgba(85, 180, 210, 1.0);
+}
+
+.code_string {
+    color: rgba(205, 148, 148, 1.0);
+}
+
+.code_keyword {
+    color: rgba(223, 196, 125, 1.0);
+}
