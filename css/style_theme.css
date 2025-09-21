@@ -20,5 +20,8 @@
 }
 
 .theme_light {
-	
+	--color-img-0: var(--theme-light-color-img-0);
+	--color-img-1: var(--theme-light-color-img-1);
+	--color-txt-0: var(--theme-light-color-txt-0);
+	--color-ico-0: var(--theme-light-color-ico-0);
 }
