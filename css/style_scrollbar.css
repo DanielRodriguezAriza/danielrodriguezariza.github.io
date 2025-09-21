@@ -1,0 +1,13 @@
+/* Top-Level document-wide scrollbar. The one that appears when the page becomes scrollable */
+
+:root {
+	scrollbar-color: gray rgba(0, 0, 0, 0.0);
+	scrollbar-width: thin;
+}
+
+/*
+	NOTE : For box element scrollbars (as in, the type of scrollbar that appears when something like a div becomes scrollable), a different scrollbar property type has to be used.
+	Look up the documentation, I don't remember the name right now.
+	The point is that if you ever need that, you need a different one from the one already in use within this document.
+	TODO : Add customization for that when some element on the site actually becomes scrollable at some point in the future... when the need comes...
+*/
