@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	/*background: linear-gradient(180deg, #1a1a1a, #0d0d0d);*/
+	background-color: var(--color-img-1);
 	font-family: "Segoe UI", Tahoma, sans-serif;
 	padding: 0;
 	margin: 0;
