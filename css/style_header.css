@@ -13,7 +13,7 @@
 .header_button_theme {
     display: inline-block;
     padding: 2px;
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 0 0 10px black;
     color: var(--color-txt-0);
     background-color: var(--color-img-1);
@@ -25,4 +25,20 @@
 
 .header_button_theme:hover {
     transform: scale(1.05);
+}
+
+.header_button_theme_circle {
+    border-radius: 100%;
+    background-color: var(--color-hl-0);
+    transition: all 0.1s;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    display: inline-block;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+.header_button_theme_circle:hover {
+    background-color: var(--color-hl-1);
+    transform: translate(50%, -50%); /*TODO: Move to the clicked state, not on hover...*/
 }
