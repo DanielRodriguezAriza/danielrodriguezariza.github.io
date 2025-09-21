@@ -27,6 +27,13 @@
     transform: scale(1.05);
 }
 
+.theme_dark {
+    --header-button-theme-circle-offset: -50%;
+}
+.theme_light {
+    --header-button-theme-circle-offset: 50%;
+}
+
 .header_button_theme_circle {
     border-radius: 100%;
     background-color: var(--color-hl-0);
@@ -36,9 +43,8 @@
     top: 50%;
     display: inline-block;
     position: relative;
-    transform: translate(-50%, -50%);
+    transform: translate(var(--header-button-theme-circle-offset), -50%);
 }
 .header_button_theme_circle:hover {
     background-color: var(--color-hl-1);
-    transform: translate(50%, -50%); /*TODO: Move to the clicked state, not on hover...*/
 }
