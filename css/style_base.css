@@ -27,3 +27,22 @@ header {
 	z-index: 10;
 	background-color: var(--color-img-0);
 }
+
+main {
+	animation: mainFadeInAnimation 1s ease-out;
+	max-width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+@keyframes mainFadeInAnimation {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
