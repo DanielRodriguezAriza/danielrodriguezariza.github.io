@@ -1,3 +1,14 @@
+@media (aspect-ratio > 1) {
+	:root {
+        --margin-main: 25%;
+	}
+}
+@media (aspect-ratio < 1) {
+	:root {
+		--margin-main: 5%;
+	}
+}
+
 html {
 	margin: 0;
 	padding: 0;
@@ -30,9 +41,9 @@ header {
 
 main {
 	animation: mainFadeInAnimation 1s ease-out;
-	max-width: 50%;
-	margin-left: 25%;
-	margin-right: 25%;
+	/*max-width: 50%;*/
+	margin-left: var(--margin-main);
+	margin-right: var(--margin-main);
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
