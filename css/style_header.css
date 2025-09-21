@@ -29,9 +29,11 @@
 
 .theme_dark {
     --header-button-theme-circle-offset: -50%;
+    --header-button-theme-circle-image: url("../assets/images/icon/icon_moon.svg");
 }
 .theme_light {
     --header-button-theme-circle-offset: 50%;
+    --header-button-theme-circle-image: url("../assets/images/icon/icon_sun.svg");
 }
 
 .header_button_theme_circle {
@@ -46,5 +48,16 @@
     transform: translate(var(--header-button-theme-circle-offset), -50%);
 }
 .header_button_theme_circle:hover {
-    background-color: var(--color-hl-1);
+    box-shadow: 0px 0px 4px var(--color-hl-0), 0px 0px 10px var(--color-hl-0);
+}
+.header_button_theme_circle_image {
+    background-image: var(--header-button-theme-circle-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
 }
