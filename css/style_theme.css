@@ -13,7 +13,10 @@
 }
 
 .theme_dark {
-	
+	--color-img-0: var(--theme-dark-color-img-0);
+	--color-img-1: var(--theme-dark-color-img-1);
+	--color-txt-0: var(--theme-dark-color-txt-0);
+	--color-ico-0: var(--theme-dark-color-ico-0);
 }
 
 .theme_light {
