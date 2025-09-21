@@ -1,5 +1,15 @@
 :root {
+	/* Dark Theme */
+	--theme-dark-color-img-0: rgba(20, 20, 20, 1.0);
+	--theme-dark-color-img-1: rgba(32, 32, 32, 1.0);
+	--theme-dark-color-txt-0: white;
+	--theme-dark-color-ico-0: white;
 	
+	/* Light Theme */
+	--theme-light-color-img-0: rgba(20, 20, 20, 1.0);
+	--theme-light-color-img-1: rgba(32, 32, 32, 1.0);
+	--theme-light-color-txt-0: black;
+	--theme-light-color-ico-0: black;
 }
 
 .theme_dark {
